@@ -2,7 +2,8 @@
 
 title: MINT-SJTU # Website name
 #baseURL: 'https://example.com/' # Website URL
-baseURL: 'https://mint-sjtu.github.io/' # Website URL
+# baseURL: 'https://mint-sjtu.github.io/' # Website URL
+baseURL: 'https://cancms.github.io/mint-sjtu/' # Website URL
 
 ############################
 ## LANGUAGE
