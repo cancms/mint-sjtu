@@ -1,0 +1,311 @@
+- title: "Video-XL: Towards Vision Language Models For Extra-Long Video Understanding."
+  abbr: "CVPR 2025 <span>Oral</span> (Top 7‰)"
+  author: "Yan Shu, Zheng Liu, Peitian Zhang, Minghao Qin, Junjie Zhou, Zhengyang Liang, Tiejun Huang, Bo Zhao"
+  extra_desc1: "Oral Ratio: 96/13008"
+  link:
+    - text: "PDF"
+      url: "https://arxiv.org/pdf/2409.14485"
+    - text: "Code"
+      url: "https://github.com/VectorSpaceLab/Video-XL"
+
+
+- title: "MLVU: Benchmarking Multi-task Long Video Understanding"
+  abbr: "CVPR 2025"
+  author: "Junjie Zhou*, Yan Shu*, Bo Zhao*, Boya Wu, Zhengyang Liang, Shitao Xiao, Minghao Qin, Xi Yang, Yongping Xiong, Bo Zhang, Tiejun Huang, Zheng Liu"
+  extra_desc1: ""
+  link:
+    - text: "PDF"
+      url: "https://arxiv.org/pdf/2406.04264"
+    - text: "Code"
+      url: "https://github.com/JUNJIE99/MLVU"
+
+
+- title: "Seeing Clearly, Answering Incorrectly: A Multimodal Robustness Benchmark For Evaluating MLLMs On Leading Questions"
+  abbr: "CVPR 2025"
+  author: "Yexin Liu, Zhengyang Liang, Yueze Wang, Xianfeng Wu, Feilong Tang, Muyang He, Jian Li, Zheng Liu, Harry Yang, Ser-Nam Lim, Bo Zhao"
+  extra_desc1: ""
+  link:
+    - url: "https://arxiv.org/pdf/2406.10638"
+      text: "PDF"
+    - url: "https://github.com/BAAI-DCAI/MMVU"
+      text: "Code"
+
+
+
+
+- title: "Towards Universal Dataset Distillation via Task-Driven Diffusion"
+  abbr: "CVPR 2025  <span>Oral</span> (Top 7‰)"
+  author: "Ding Qi, Jian Li, Junyao Gao, Shuguang Dou, Ying Tai, Jianlong Hu, Bo Zhao, Yabiao Wang, Chengjie Wang, Cairong Zhao. Coming soon"
+  extra_desc1: " Oral Ratio: 96/13008"
+  link:
+
+
+
+
+- title: "SpatialBot: Precise Spatial Understanding with Vision Language Models"
+  abbr: "ICRA 2025"
+  author: "Wenxiao Cai, Iaroslav Ponomarenko, Jianhao Yuan, Xiaoqi Li, Wankou Yang, Hao Dong, Bo Zhao"
+  extra_desc1: ""
+  link:
+    - url: "https://arxiv.org/pdf/2406.13642"
+      text: "PDF"
+    - url: "https://github.com/BAAI-DCAI/SpatialBot"
+      text: "Code"
+
+
+
+- title: "NaVid-4D: Unleashing Spatial Intelligence in Egocentric RGB-D Videos for Vision-and-Language Navigation"
+  abbr: "ICRA 2025"
+  author: "Haoran Liu* Weikang Wan*, Xiqian Yu*, Minghan Li*, Jiazhao Zhang, Bo Zhao, Zhibo Chen, Zhongyuan Wang, Zhizheng Zhang, He Wang"
+  extra_desc1: ""
+  link:
+    - url: "https://wkwan7.github.io/static/video/NaVid-4D.mp4"
+      text: "Video"
+
+
+
+
+- title: "Image Captions are Natural Prompts for Training Data Synthesis"
+  abbr: "IJCV  2025"
+  author: "Shiye Lei*, Hao Chen*, Sen Zhang, Bo Zhao†, Dacheng Tao†"
+  extra_desc1: "Coming Soon"
+  link:
+
+
+
+- title: "Normalizing Batch Normalization for Long-Tailed Recognition"
+  abbr: "TIP 2024"
+  author: "Yuxiang Bao∗, Guoliang Kang∗, Linlin Yang, Xiaoyue Duan, Bo Zhao, Baochang Zhang"
+  extra_desc1: ""
+  link:
+    - url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10817528&casa_token=i3GB15OegqsAAAAA:eZITSPfdetmf3kWWwJ1GFGBFoveg1f5Mmxcq_NPfVOUhZBihnRyyIArkp9NcyOxJ65BYIcfSX3w"
+      text: "PDF"
+    - url: "https://github.com/yuxiangbao/NBN"
+      text: "Code"
+
+
+- title: "SegVol: Universal and Interactive Volumetric Medical Image Segmentation"
+  abbr: "NeurIPS 2024 <span>Spotlight</span> (Top 3%)"
+  author: "Yuxin Du, Fan Bai, Tiejun Huang, Bo Zhao"
+  extra_desc1: "<span>The ninth-highest rated paper (9/15671) in NeurIPS 2024</span>"
+  link:
+    - url: "https://papercopilot.com/statistics/neurips-statistics/neurips-2024-statistics/"
+      text: "Ranking"
+    - url: "https://openreview.net/pdf?id=105ZuvpdyW"
+      text: "PDF"
+    - url: "https://github.com/BAAI-DCAI/SegVol"
+      text: "Code"
+
+
+
+
+- title: "Fetch and Forge: Efficient Dataset Condensation for Object Detection"
+  abbr: "NeurIPS 2024"
+  author: "Ding Qi, Jian Li, Jinlong Peng, Bo Zhao, Shuguang Dou, Jialin Li, Jiangning Zhang, Yabiao Wang, Chengjie Wang, Cairong Zhao"
+  extra_desc1: ""
+  link:
+    - url: "https://openreview.net/pdf?id=m8MElyzuwp"
+      text: "PDF"
+
+
+
+
+
+- title: "Touchstone Benchmark: Are We on the Right Way for Evaluating AI Algorithms for Medical Segmentation"
+  abbr: "NeurIPS 2024 D&B Track"
+  author: "Pedro R. A. S. Bassi*, Wenxuan Li*, et al"
+  extra_desc1: ""
+  link:
+    - url: "https://openreview.net/pdf?id=YzM10FEJ2D"
+      text: "PDF"
+    - url: "https://github.com/MrGiovanni/Touchstone"
+      text: "Code"
+
+
+
+
+- title: "Omni6DPose: A Benchmark and Model for Universal 6D Object Pose Estimation and Tracking"
+  abbr: "ECCV 2024"
+  author: "Jiyao Zhang*, Weiyao Huang*, Bo Peng*, Mingdong Wu, Fei Hu, Zijian Chen, Bo Zhao, Hao Dong"
+  extra_desc1: ""
+  link:
+    - url: "https://jiyao06.github.io/Omni6DPose/"
+      text: "Project Page"
+    - url: "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09574.pdf"
+      text: "PDF"
+
+
+
+
+- title: "VISTA: Visualized Text Embedding For Universal Multi-Modal Retrieval"
+  abbr: "ACL 2024"
+  author: "Junjie Zhou, Shitao Xiao, Zheng Liu, Bo Zhao, Yongping Xiong"
+  extra_desc1: ""
+  link:
+    - url: "https://aclanthology.org/2024.acl-long.175.pdf"
+      text: "PDF"
+    - url: "https://github.com/FlagOpen/FlagEmbedding/tree/master/FlagEmbedding/visual"
+      text: "Code"
+
+
+
+
+- title: "RAG-Driver Generalisable Driving Explanations with Retrieval-Augmented In-Context Learning in Multi-Modal Large Language Model"
+  abbr: "RSS 2024"
+  author: "Jianhao Yuan, Shuyang Sun, Daniel Omeiza, Bo Zhao, Paul Newman, Lars Kunze, Matthew Gadd"
+  extra_desc1: ""
+  link:
+    - url: "https://yuanjianhao508.github.io/RAG-Driver/"
+      text: "Project Page"
+    - url: "https://arxiv.org/pdf/2402.10828"
+      text: "PDF"
+    - url: "https://github.com/YuanJianhao508/RAG-Driver"
+      text: "Code"
+
+
+
+
+- title: "Real-Fake: Effective Training Data Synthesis Through Distribution Matching"
+  abbr: "ICLR 2024"
+  author: " Jianhao Yuan, Jie Zhang, Shuyang Sun, Philip Torr, Bo Zhao"
+  extra_desc1: ""
+  link:
+    - url: "https://openreview.net/pdf?id=svIdLLZpsA"
+      text: "PDF"
+    - url: "https://github.com/BAAI-DCAI/Training-Data-Synthesis"
+      text: "Code"
+
+
+
+
+- title: "Accelerating Dataset Distillation via Model Augmentation"
+  abbr: "CVPR 2023 <span>Highlight</span> (Top 3%)"
+  author: "Lei Zhang*, Jie Zhang*, Bowen Lei, Subhabrata Mukherjee, Xiang Pan, Bo Zhao, Caiwen Ding, Yao Li, Dongkuan Xu"
+  extra_desc1: ""
+  link:
+    - url: "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Accelerating_Dataset_Distillation_via_Model_Augmentation_CVPR_2023_paper.pdf"
+      text: "PDF"
+
+
+- title: "Dataset Condensation with Distribution Matching"
+  abbr: "WACV 2023"
+  author: "Bo Zhao; Hakan Bilen"
+  extra_desc1: ""
+  link:
+    - url: "https://arxiv.org/pdf/2110.04181.pdf"
+      text: "PDF"
+    - url: "https://github.com/VICO-UoE/DatasetCondensation"
+      text: "Code"
+
+
+
+
+- title: "Synthesizing Informative Training Samples with GAN"
+  abbr: "NeurIPS Workshops 2022"
+  author: "Bo Zhao; Hakan Bilen"
+  extra_desc1: ""
+  link:
+    - url: "https://openreview.net/pdf?id=frAv0jtUMfS"
+      text: "PDF"
+    - url: "https://github.com/VICO-UoE/IT-GAN"
+      text: "Code"
+
+
+
+
+- title: "Privacy for Free: How does Dataset Condensation Help Privacy"
+  abbr: "ICML 2022  <span>Outstanding Paper Award</span>  (Top 2‰)"
+  author: "Tian Dong; Bo Zhao; Lingjuan Lyu"
+  extra_desc1: ""
+  link:
+    - url: "https://proceedings.mlr.press/v162/dong22c/dong22c.pdf"
+      text: "PDF"
+
+
+
+
+- title: "CAFE: Learning to Condense Dataset by Aligning Features"
+  abbr: "CVPR 2022"
+  author: "Kai Wang*; Bo Zhao*; Xiangyu Peng; Zheng Zhu; Shuo Yang; Shuo Wang; Guan Huang; Hakan Bilen; Xinchao Wang; and Yang You"
+  extra_desc1: ""
+  link:
+    - url: "https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_CAFE_Learning_To_Condense_Dataset_by_Aligning_Features_CVPR_2022_paper.pdf"
+      text: "PDF"
+
+
+- title: "Dataset Condensation with Differentiable Siamese Augmentation"
+  abbr: "ICML 2021"
+  author: "Bo Zhao; Hakan Bilen"
+  extra_desc1: ""
+  link:
+    - url: "http://proceedings.mlr.press/v139/zhao21a/zhao21a.pdf"
+      text: "PDF"
+    - url: "https://github.com/VICO-UoE/DatasetCondensation"
+      text: "Code"
+
+
+- title: "Dataset Condensation with Gradient Matching"
+  abbr: "ICLR 2021 <span>Oral</span> (Top 2%)"
+  author: "Bo Zhao; Konda Reddy Mopuri; Hakan Bilen"
+  extra_desc1: "<span>The second-highest rated paper 2/2997 in ICLR 2021</span> "
+  link:
+    - url: "https://docs.google.com/spreadsheets/d/1n58O0lgGI5kI0QQY9f4BDDpNB4oFjb5D51yMr9fHAK4/edit#gid=1546418007"
+      text: "Ranking"
+    - url: "https://openreview.net/pdf?id=mSAKhLYLSsl"
+      text: "PDF"
+    - url: "https://github.com/VICO-UoE/DatasetCondensation"
+      text: "Code"
+
+
+- title: "Continual Representation Learning for Biometric Identification"
+  abbr: "WACV 2021"
+  author: "Bo Zhao*; Shixiang Tang*; Dapeng Chen; Hakan Bilen; Rui Zhao"
+  extra_desc1: ""
+  link:
+    - url: "https://openaccess.thecvf.com/content/WACV2021/papers/Zhao_Continual_Representation_Learning_for_Biometric_Identification_WACV_2021_paper.pdf"
+      text: "PDF"
+    - url: "https://github.com/PatrickZH/Continual-Representation-Learning-for-Biometric-Identification"
+      text: "Code"
+
+
+- title: "iDLG: Improved Deep Leakage from Gradients"
+  abbr: "arXiv 2020"
+  author: "Bo Zhao; Konda Reddy Mopuri; Hakan Bilen"
+  extra_desc1: ""
+  link:
+    - url: "https://arxiv.org/pdf/2001.02610.pdf"
+      text: "arXiv"
+    - url: "https://github.com/PatrickZH/Improved-Deep-Leakage-from-Gradients"
+      text: "Code"
+
+
+- title: "MSplit LBI: Realizing Feature Selection and Dense Estimation Simultaneously in Few-shot and Zero-shot Learning"
+  abbr: "ICML 2018"
+  author: "Bo Zhao*; Xinwei Sun*; Yanwei Fu; Yuan Yao; Yizhou Wang"
+  extra_desc1: ""
+  link:
+    - url: "https://drive.google.com/open?id=1S8YvK9TpFXIFU-o6uZK8mmYRWGe-4rWX"
+      text: "PDF"
+    - url: "http://github.com/PatrickZH/MSplitLBI"
+      text: "Code"
+
+
+- title: "EasyFont: A Style Learning based System to Easily Build Your Large-scale Handwriting Fonts"
+  abbr: "ACM TOG 2018 & SIGGRAPH 2019"
+  author: "Zhouhui Lian; Bo Zhao; Xudong Chen; Jianguo Xiao"
+  extra_desc1: ""
+  link:
+    - url: "https://drive.google.com/open?id=138PvyYdcIAcSDGEK3Qzp9pnQnFwbtwVs"
+      text: "PDF"
+
+
+- title: "Automatic Generation of Large-scale Handwriting Fonts via Style Learning"
+  abbr: "SIGGRAPH ASIA 2016"
+  author: "Zhouhui Lian; Bo Zhao; Jianguo Xiao"
+  extra_desc1: ""
+  link:
+    - url: "https://drive.google.com/open?id=15y2pqi1oxZ7wTBDo-lVkWG2ghyu5q5RV"
+      text: "PDF"
+
+
+

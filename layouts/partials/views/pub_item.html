@@ -1,0 +1,18 @@
+{{ $item := . }}
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <sapn class="pub-abbr">[{{ $item.abbr | markdownify | safeHTML}}]</sapn>
+  <sapn class="pub-title">{{ $item.title | markdownify | safeHTML}}</sapn>
+  <sapn class="pub-author">{{ $item.author | markdownify | safeHTML}}</sapn>
+  <sapn class="pub-extra_desc1">{{ $item.extra_desc1 | markdownify | safeHTML}}</sapn>
+  {{ if $item.link}}
+  <p>
+    {{ range $item.link }}
+    <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ .url }}">{{ .text }}</a>
+    {{ end }}
+  </p>
+  {{ end }}
+
+
+</div>

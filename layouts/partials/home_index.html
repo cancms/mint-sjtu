@@ -7,7 +7,7 @@
       <div class="col-12 hero-title" >{{ $heroBlock.content.title | markdownify }}</div>
     </div>
     <div class="row">
-      <div class="col-12" >{{ $heroBlock.content.text | markdownify }}</div>
+      <div class="col-12 hero-desc-txt" >{{ $heroBlock.content.text | markdownify }}</div>
     </div>
   </div>
 </section>
@@ -23,21 +23,108 @@ https://blog.csdn.net/chenmo2001/article/details/117674446
 <section id="section-hero" class="home-section wg-hero">
   <div class="container">
     <div class="row">
-      <div class="col-12  hero-media carousel slide "  id="{{ $slider_hash_id }}">
+      <div class="col-12  hero-media carousel slide " data-ride="carousel"  id="{{ $slider_hash_id }}">
         {{ partial "blocks/slider.html" $slider_args }}
     </div>
-      
+
     </div>
   </div>
 </section>
- 
+
+
+
+{{/*
+  Recent works
+*/}}
+
+<section id="section-recent-works" class="home-section ">
+  <div class="container">
+    <div class="section-c-title" >Recent Works</div>
+    <div class="grid grid-cols-1 gap-x-12 gap-y-16  lg:grid-cols-3">
+      {{ range .Params.recentWorksBlock }}
+
+        {{- $image := resources.Get (path.Join "media" .img) -}}
+
+        <div class="">
+
+          <div class="card"  >
+            <a href="{{ .link }}"><img src="{{ $image.RelPermalink }}" alt="{{ .title }}"></a>
+            <div class="card-body">
+              <!-- <h5 class="card-title">title</h5> -->
+              <p class="card-text">{{ .desc }}</p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+
+        </div>
+      {{ end }}
+
+    </div>
+  </div>
+</section>
 
 
 
 
+{{/*
+  Publications
+*/}}
+<section id="section-publications" class="home-section ">
+  <div class="container">
+    <div class="section-c-title" >Publications</div>
+    <div class="">
+      <div style="padding-bottom: 2rem;">Full list in <a href="https://scholar.google.com/citations?user=R3_AR5EAAAAJ&hl=en">Google Scholar</a>. </div>
+      <ul class="">
+        {{ range  .Site.Data.publications }}
+          <li class="">
+            {{ partial "views/pub_item.html" . }}
+          </li>
+        {{ end }}
+      </ul>
+
+    </div>
+
+  </div>
+</section>
 
 
 
+{{/*
+  Members
+*/}}
+
+<section id="section-members" class="home-section ">
+  <div class="container">
+    <div class="section-c-title" >Members</div>
+    <div class="grid grid-cols-1 gap-x-6 gap-y-16 lg:grid-cols-6">
+      {{ range .Site.Data.members }}
+
+        {{- $image2 := resources.Get (path.Join "media" .image) -}}
+
+        <div class="">
+
+          <div class="card"  >
+            <img src="{{ $image2.RelPermalink }}" alt="">
+            <div class="card-body">
+              <!-- <h5 class="card-title">title</h5> -->
+              <div class="card-text">{{ .name | safeHTML }}</div>
+              <div class="card-text m-role">{{ .role | safeHTML }}</div>
+              {{if .period}}<div class="card-text">({{ .period | safeHTML }})</div>{{ end }}
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+
+        </div>
+      {{ end }}
+
+    </div>
+  </div>
+</section>
+
+
+
+
+{{/*
 {{ $newsBlock := .Params.newsBlock }}
 {{ $pubsBlock := .Params.publicationsBlock }}
 {{ $news_args := dict "wcPage" $ "wcBlock" $newsBlock "wcIdentifier" "latest_news" }}
@@ -57,13 +144,5 @@ https://blog.csdn.net/chenmo2001/article/details/117674446
     </div>
   </div>
 </section>
+*/}}
 
-
-{{ $team_args := dict "wcPage" $ "wcBlock" .Params.teamsBlock "wcIdentifier" "meet_the_team" }}
-<section id="section-meet-team" class="home-section wg-team">
-  <div class="container">
-    <div class="row">
-          {{ partial "blocks/markdown.html" $team_args }}
-    </div>
-  </div>
-</section>
