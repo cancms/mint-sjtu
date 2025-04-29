@@ -1,31 +1,22 @@
-name: Deploy website to GitHub Pages
-
-env:
-  WC_HUGO_VERSION: '0.135.0'
-
+name: Build and Deploy
+# 监听 master 分支上的 push 事件
 on:
-  # Trigger the workflow every time you push to the `main` branch
   push:
-    branches: ["main"]
-  # Allows you to run this workflow manually from the Actions tab on GitHub.
-  workflow_dispatch:
-
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
+    branches:
+      - main
 jobs:
-  # Build website
-  build:
-    if: github.repository_owner != 'HugoBlox'
+  build-and-deploy:
+    # 构建环境使用 ubuntu
     runs-on: ubuntu-latest
     steps:
+      # 官方action, 将代码拉取到虚拟机
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
         with:
-          # Fetch history for Hugo's .GitInfo and .Lastmod
-          fetch-depth: 0
+          persist-credentials: false
+
+
+      # 安装 hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
@@ -37,6 +28,8 @@ jobs:
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
           restore-keys: |
             ${{ runner.os }}-hugomod-
+
+      # hugo build
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
@@ -46,20 +39,16 @@ jobs:
         run: |
           echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
 
-  # Deploy website to GitHub Pages hosting
-  deploy:
-    if: github.repository_owner != 'HugoBlox'
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+
+
+
+
+      # 部署
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
+        with:
+          # 项目配置的打包目录名称
+          folder: public
+          # 提交分支名
+          branch: gh-pages
