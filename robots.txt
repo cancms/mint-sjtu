@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://cancms.github.io/mint-sjtu/sitemap.xml
